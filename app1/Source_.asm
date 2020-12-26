@@ -2,10 +2,10 @@
 ;               Ch02_01.asm
 ;-------------------------------------------------
 
-; extern "C" int IntegerAddSub_(int a, int b, int c, int d);
+; extern "C" int asm_add(int a, int b, int c, int d);
 
         .code
-IntegerAddSub_ proc
+asm_add proc
 
 ; Calculate a + b + c - d
         mov eax,ecx                         ;eax = a
@@ -14,5 +14,5 @@ IntegerAddSub_ proc
         sub eax,r9d                         ;eax = a + b + c - d
 
         ret                                 ;return result to caller
-IntegerAddSub_ endp
+asm_add endp
         end
