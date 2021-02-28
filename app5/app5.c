@@ -3,7 +3,7 @@
    #Date: 14 Feb 2021 #
    #Revision: 1.0 #
    #Creator: Omid Miresmaeili #
-   #Description: Using mixed data type sizes (signed and unsigned) #
+   #Description: Using mixed data types (8, 16, 32, 64 bits signed and unsigned) #
    #Notice: (C) Copyright 2021 by Omid. All Rights Reserved. #
    =========================================================== */
 
